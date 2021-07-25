@@ -1,0 +1,156 @@
+@import url(menu.css);
+@import url(covers.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+    color:white;
+    padding-top: 5px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+h1 img{ 
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+header .contenedor{
+    display: table;
+}
+
+.Texto{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif, bold;
+}
+
+.Listado{
+    padding-top: 50px;
+}
+
+.Listado ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Listado li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.Listado a{
+    text-decoration: none;
+    color: #a6a6a6;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Listado a:hover{
+    cursor: pointer;
+    border-bottom: 1px solid;
+    padding-bottom: .4em;
+    color: white;
+
+}
+
+@media (min-width: 1025px){
+    h2{
+        width: 60%;
+    }
+}
+
+@media (mix-width: 769px) and (max-width:1024px){
+
+    .Listado{
+        padding-top: 50px;
+        width: 90%;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .Listado li{
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        padding: 10px 0px;
+    }
+
+    h2{
+        width: 60%;
+    }
+}
+
+@media (max-width:768px){
+    h2{
+        font-size: 35px;
+        width: 80%;
+    }
+
+    .Listado{
+        padding-top: 50px;
+        width: 90%;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .Listado li{
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        padding: 10px 0px;
+    }
+
+
+    .Listado ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Listado a{
+        font-size: 20px;
+    }
+}
