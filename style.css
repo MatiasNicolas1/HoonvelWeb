@@ -45,7 +45,7 @@ header .contenedor{
 }
 
 .Texto{
-    padding-top: 120px;
+    padding-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +94,9 @@ h2{
 @media (min-width: 1025px){
     h2{
         width: 60%;
+    }
+    h1 img{
+        padding-left: 120px;
     }
 }
 

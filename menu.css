@@ -50,8 +50,9 @@ header label{
         width: auto;
         height: auto;
         transform: translateX(0%);
-        float: right;
         display: flex;
+        justify-content: flex-end;
+        padding-right: 120px;
     }
 
     .menu a{
@@ -68,13 +69,18 @@ header label{
         display:flex;
         flex-direction: column;
         justify-content: center;
+        background-color: #111111;
     }
     .menu a{
-        color: white;
+        color: #a6a6a6;
         border: none;
         text-align: center;
-        background-color: black;
+        background-color: #111111;
         font-size: 40px;
+    }
+    .menu a:hover{
+        color: white;
+        border: none;
     }
     .menu a::after{
         height: 2px;
