@@ -22,6 +22,7 @@ input{
     padding: 15px;
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
+    width: 100px;
 }
 
 .menu a:hover{
@@ -32,9 +33,7 @@ input{
 
 .menu li{
     list-style: none;
+    background-color: black;
 }
 
-#menu-bar:checked ~ .menu{
-    transform: translateX(0%);
-}
 
