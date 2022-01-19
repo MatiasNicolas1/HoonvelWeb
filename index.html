@@ -47,104 +47,34 @@
 
         <section class="Listado">
             <ul>
-                <li><a href="#" id="categoryItem" category="all">ALL</a></li>
-                <li><a href="#" id="categoryItem" category="cover_design">COVER DESIGN</a></li>
-                <li><a href="#" id="categoryItem" category="other">OTHER</a></li>
+                <li><a href="#" id="all" category="all">ALL</a></li>
+                <li><a href="#" id="cover_design" category="cover_design">COVER DESIGN</a></li>
+                <li><a href="#" id="other" category="other">OTHER</a></li>
             </ul>
         </section>
 
-        <section class="Covers">
-            <div class="container">
-                <div class="item" category="cover_design">
-                  <img src="Hoonvel-Img/01.jpg" alt="" class="item-img">
-                </div>
-                
-                <div class="item" category="cover_design">
-                  <img src="Hoonvel-Img/02.jpg" alt="" class="item-img">
-                </div>
-                
-                <div class="item" category="cover_design">
-                  <img src="Hoonvel-Img/03.jpg" alt="" class="item-img">
-                </div>
-                
-                <div class="item" category="cover_design">
-                  <img src="Hoonvel-Img/04.jpg" alt="" class="item-img">
-                </div>
-                
-                
-                <div class="item" category="cover_design">
-                  <img src="Hoonvel-Img/05.jpg" alt="" class="item-img">
-                </div>
-                
-                <div class="item" category="cover_design">
-                  <img src="Hoonvel-Img/06.jpg" alt="" class="item-img">
-                </div>
+        <div class="ful-img" id="fulImgBox">
+            <img src="Hoonvel-Img/01.jpg" id="fulImg" alt="">
+            <span onclick="closeImg()"></span>
+        </div>
 
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/07.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/08.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/09.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/10.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/11.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/12.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/13.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/14.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/15.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/02_NEEKBUCKS.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/04_KAYFLOCK.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/06_26AR.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/08_Packman.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/03_GT.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/05_DREWSKI.jpg" alt="" class="item-img">
-                </div>
-
-                <div class="item" category="cover_design">
-                    <img src="Hoonvel-Img/07_lilrekk.jpg" alt="" class="item-img">
-                </div>
-            </div>
-        </section>
+        <div class="img-gallery">
+            <img src="Hoonvel-Img/01.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/02.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/03.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/04.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/05.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/06.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/07.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/08.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/09.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/10.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/11.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/12.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/13.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/14.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+            <img src="Hoonvel-Img/15.jpg" onclick="openFulImg(this.src)" alt="" class="img">
+        </div>
     </main>
     <!--/Main-->
     <script src="script.js"></script>
